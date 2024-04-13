@@ -1,3 +1,9 @@
+# Data source: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
+
+# Findings from this analysis indicate that less than 5% of stroke victims were under the age of 50, the probability of getting a stroke increases exponentially as age increases, and this study could be used to conduct 
+# hypothesis testing for the proportion of any age group that is at risk of a stroke.
+
+
 df = pd.read_csv(filepath_or_buffer='Practice Datasets/Dataset.csv', index_col=0, na_filter=False)
 df['Decade'] = (df['age'] - (df['age'] % 10)) 
 df = df.rename(columns=str.capitalize)
