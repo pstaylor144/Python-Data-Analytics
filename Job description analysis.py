@@ -1,3 +1,4 @@
+# Data source: https://www.kaggle.com/datasets/asaniczka/linkedin-data-engineer-job-postings
 import pandas as pd
 import numpy as np
 import re
